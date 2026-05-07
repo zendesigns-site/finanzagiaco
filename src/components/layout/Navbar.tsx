@@ -11,6 +11,7 @@ export const Navbar = () => {
       <div className="hidden md:flex gap-8 text-sm font-medium uppercase tracking-widest text-secondary">
         <Link to="/" className="hover:text-link transition-colors">Home</Link>
         <Link to="/chi-sono" className="hover:text-link transition-colors">Chi Sono</Link>
+        <Link to="/gestione-investimenti" className="hover:text-link transition-colors">Investimenti</Link>
         <a href="/#servizi" className="hover:text-link transition-colors">Servizi</a>
         <a href="/#testimonianze" className="hover:text-link transition-colors">Storie</a>
       </div>
