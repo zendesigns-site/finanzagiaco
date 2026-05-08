@@ -5,6 +5,7 @@ import { Footer } from './components/layout/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Investments from './pages/Investments';
+import Planning from './pages/Planning';
 
 function ScrollToTop() {
   const { pathname, hash } = useLocation();
@@ -35,6 +36,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/chi-sono" element={<About />} />
             <Route path="/gestione-investimenti" element={<Investments />} />
+            <Route path="/pianificazione-finanziaria" element={<Planning />} />
           </Routes>
         </main>
         <Footer />
