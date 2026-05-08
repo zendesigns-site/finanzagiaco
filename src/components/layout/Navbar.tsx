@@ -12,6 +12,7 @@ export const Navbar = () => {
         <Link to="/" className="hover:text-link transition-colors">Home</Link>
         <Link to="/chi-sono" className="hover:text-link transition-colors">Chi Sono</Link>
         <Link to="/gestione-investimenti" className="hover:text-link transition-colors">Investimenti</Link>
+        <Link to="/pianificazione-finanziaria" className="hover:text-link transition-colors">Pianificazione</Link>
         <a href="/#servizi" className="hover:text-link transition-colors">Servizi</a>
         <a href="/#testimonianze" className="hover:text-link transition-colors">Storie</a>
       </div>
